@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina do Otaku</title>
+</head>
+<body>
+    <a href="index.html">Voltar</a>
+    <h3>Cadastre-se como real Otaku</h3>
+    <p>Se você se considera um real otaku faça o cadastro</p>
+    <h4>Dados Pessoais:</h4>
+    <form id="FrmInicial" action="recebeForm.html" method="GET">
+        <label for="txtName">Nome de login</label>
+        <input  placeholder="Coloque o seu nome para login" required type="text" name="txtName" id="txtName">
+        <br>
+        <label for="txtPassword">Senha:</label>
+        <input placeholder="Coloque a sua senha" type="password" name="txtPassword" id="txtPassword">
+        <br>
+        <label for="txtEmail">Input Email:</label>
+        <input placeholder="Coloque o seu email" type="email" name="txtEmail" id="txtEmail">
+        <br>
+        <label for="txtName">Nome</label>
+        <input  placeholder="Coloque o seu nome" required type="text" name="txtName" id="txtName">
+        <br>
+        <label for="txtSobrenome">Sobrenome</label>
+        <input  placeholder="Coloque o seu sobrenome" required type="text" name="txtSobrenome" id="txtSobrenome"> 
+        <br>
+        <label for="txtName">Data de Nascimento</label>
+        <input required type="date" name="txtDate" id="txtDate">
+        <br>
+        
+    </form>
+    <br>
+    <h4>Quanto você gosta desse animes:</h4>
+    <form id="FrmInicial" action="recebeForm.html" method="GET">
+        <label for="txtNarutinho">Narutinho</label>
+        <input type="range" name="txtNarutinho" id="txtNarutinho">
+        <br>
+        <label for="txtFA">Fullmetal Alchemist</label>
+        <input type="range" name="txtFA" id="txtFA">
+        <br>
+        <label for="txtPokémon">Pokémon **de 1997**</label>
+        <input type="range" name="txtPokémon" id="txtPokémon">
+        <br>
+    </form>
+    <br>
+    <button>Finalizar Cadastro</button>
+</body>
