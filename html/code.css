@@ -1,0 +1,35 @@
+h1 {
+    font-family: Verdana, sans-serif;
+
+}
+
+body {
+    background-color:rgba(128, 221, 190, 0.603);
+    margin: 0px;
+}
+
+.post-container {
+    width: 70%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+    background-color: rgb(219, 248, 238);
+
+}
+
+.post-container .date {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color:rgb(31, 143, 106) ;
+}
+
+.post-container div.post-content {
+width: 90%;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: normal;
+
+}
+
+.post-container .post {
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
